@@ -33,7 +33,7 @@ public class Currency
 
         string filePath = Path.Combine(
             Directory.GetCurrentDirectory(), 
-            "Plugins\\ConvertCurrency\\currencies.txt"
+            "Plugins", "currencies.txt"
         );
         
         if (!File.Exists(filePath))
